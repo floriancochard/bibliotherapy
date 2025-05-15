@@ -8,6 +8,7 @@ import Pricing from "@/components/pricing";
 import Footer from "@/components/footer";
 import WhatIsBibliography from "@/components/what-is-bibliography";
 import ClosingCTA from "@/components/closing-cta";
+
 export default function Home() {
   return (
     <div className="min-h-screen w-full bg-white">
