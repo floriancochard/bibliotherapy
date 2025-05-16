@@ -26,9 +26,11 @@ export default function Navbar() {
           <Button variant="outline" size="sm" className="hidden md:flex">
             Log in
           </Button>
-          <Button size="sm" className="bg-teal-600 hover:bg-teal-700">
-            Start free
-          </Button>
+          <Link href="https://form.typeform.com/to/U5t9CQQD" target="_blank">
+            <Button size="sm" className="bg-teal-600 hover:bg-teal-700 text-white cursor-pointer">
+              Start free
+            </Button>
+          </Link>
         </div>
       </div>
     </header>

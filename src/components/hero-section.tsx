@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function HeroSection() {
   return (
@@ -16,9 +17,12 @@ export default function HeroSection() {
               recommendations based on your emotional state—just like a bibliotherapist would.
             </p>
           </div>
-          <Button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-md">
-            Start free – no credit card required
-          </Button>
+
+          <Link href="https://form.typeform.com/to/U5t9CQQD" target="_blank">
+            <Button className="bg-teal-600 hover:bg-teal-700 text-white px-8 py-6 text-lg rounded-md cursor-pointer">
+              Start free
+            </Button>
+          </Link>
           <div className="pt-8">
             <Image
               src="/placeholder.svg?height=400&width=600"
